@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd -- -j12 -l12
+[0.180s] [ 50%] Built target rosbag2_to_pcd_node
+[0.205s] [35m[1mConsolidate compiler generated dependencies of target rosbag2_to_pcd_node_component[0m
+[0.225s] [ 75%] [32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o[0m
+[11.703s] [100%] [32m[1mLinking CXX shared library librosbag2_to_pcd_node_component.so[0m
+[14.033s] [100%] Built target rosbag2_to_pcd_node_component
+[14.040s] Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd -- -j12 -l12
+[14.047s] Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd
+[14.066s] -- Install configuration: "RelWithDebInfo"
+[14.073s] -- Execute custom install script
+[14.073s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/rosbag2_to_pcd/rosbag2_to_pcd_node
+[14.073s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.sh
+[14.074s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.dsv
+[14.074s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/librosbag2_to_pcd_node_component.so
+[14.074s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param copy.yaml
+[14.074s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param.yaml
+[14.074s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/launch/rosbag2_to_pcd.launch.xml
+[14.074s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/package_run_dependencies/rosbag2_to_pcd
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/parent_prefix_path/rosbag2_to_pcd
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.sh
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.dsv
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.sh
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.dsv
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.bash
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.sh
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.zsh
+[14.075s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.dsv
+[14.075s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.dsv
+[14.082s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/packages/rosbag2_to_pcd
+[14.082s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/rclcpp_components/rosbag2_to_pcd
+[14.082s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/ament_cmake_export_libraries-extras.cmake
+[14.082s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig.cmake
+[14.082s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig-version.cmake
+[14.082s] -- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.xml
+[14.083s] Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd

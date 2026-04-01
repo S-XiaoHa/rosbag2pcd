@@ -1,0 +1,147 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)
+-- Found libusb-1.0: /usr/include  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+-- Found PCL_2D: /usr/local/include/pcl-1.10  
+-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.10  
+-- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+-- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'qhull_r'
+--   Found qhull_r, version 8.0.2
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd
+[ 25%] [32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node.dir/rclcpp_components/node_main_rosbag2_to_pcd_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable rosbag2_to_pcd_node[0m
+[ 75%] Built target rosbag2_to_pcd_node
+[100%] [32m[1mLinking CXX shared library librosbag2_to_pcd_node_component.so[0m
+[100%] Built target rosbag2_to_pcd_node_component
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/rosbag2_to_pcd/rosbag2_to_pcd_node
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.sh
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.dsv
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/librosbag2_to_pcd_node_component.so
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param.yaml
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/launch/rosbag2_to_pcd.launch.xml
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/package_run_dependencies/rosbag2_to_pcd
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/parent_prefix_path/rosbag2_to_pcd
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.sh
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.dsv
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.sh
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.dsv
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.bash
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.sh
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.zsh
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.dsv
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.dsv
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/packages/rosbag2_to_pcd
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/rclcpp_components/rosbag2_to_pcd
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig.cmake
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig-version.cmake
+-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.xml

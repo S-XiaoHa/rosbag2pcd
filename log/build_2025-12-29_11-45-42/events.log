@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000280] (rosbag2_to_pcd) JobQueued: {'identifier': 'rosbag2_to_pcd', 'dependencies': OrderedDict()}
+[0.000380] (rosbag2_to_pcd) JobStarted: {'identifier': 'rosbag2_to_pcd'}
+[0.007037] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'cmake'}
+[0.025998] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'build'}
+[0.026623] (rosbag2_to_pcd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', '--', '-j12', '-l12'], 'cwd': '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'liujie'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liujie'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/liujie/.cyclonedds/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2297'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2528'), ('BUNDLED_DEBUGPY_PATH', '/home/liujie/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b22c5d74afb0805e7672b7c6951d164'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6898'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujie'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/home/liujie/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liujie/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/liujie:@/tmp/.ICE-unix/2528,unix/liujie:/tmp/.ICE-unix/2528'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '6081a8d28f2b49e9bb600912a260bfca'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liujie/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cac67c9d452b4f3a.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/liujie/.config/Code/User/workspaceStorage/3bab27dac83f428b2e1eff173856604e/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/liujie/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-490141819f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/liujie'), ('AMENT_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujie/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujie/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b22c5d74afb0805e7672b7c6951d164'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd:/opt/ros/humble')]), 'shell': False}
+[0.099849] (-) TimerEvent: {}
+[0.179888] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 50%] Built target rosbag2_to_pcd_node\n'}
+[0.199942] (-) TimerEvent: {}
+[0.205325] (rosbag2_to_pcd) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rosbag2_to_pcd_node_component\x1b[0m\n'}
+[0.225536] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o\x1b[0m\n'}
+[0.300036] (-) TimerEvent: {}
+[0.400301] (-) TimerEvent: {}
+[0.500543] (-) TimerEvent: {}
+[0.600760] (-) TimerEvent: {}
+[0.701001] (-) TimerEvent: {}
+[0.801325] (-) TimerEvent: {}
+[0.901553] (-) TimerEvent: {}
+[1.001737] (-) TimerEvent: {}
+[1.101990] (-) TimerEvent: {}
+[1.202338] (-) TimerEvent: {}
+[1.302563] (-) TimerEvent: {}
+[1.402856] (-) TimerEvent: {}
+[1.503112] (-) TimerEvent: {}
+[1.603377] (-) TimerEvent: {}
+[1.703707] (-) TimerEvent: {}
+[1.803957] (-) TimerEvent: {}
+[1.904213] (-) TimerEvent: {}
+[2.004486] (-) TimerEvent: {}
+[2.104764] (-) TimerEvent: {}
+[2.205022] (-) TimerEvent: {}
+[2.305283] (-) TimerEvent: {}
+[2.405530] (-) TimerEvent: {}
+[2.505758] (-) TimerEvent: {}
+[2.605993] (-) TimerEvent: {}
+[2.706289] (-) TimerEvent: {}
+[2.806538] (-) TimerEvent: {}
+[2.906811] (-) TimerEvent: {}
+[3.007063] (-) TimerEvent: {}
+[3.107347] (-) TimerEvent: {}
+[3.207590] (-) TimerEvent: {}
+[3.307829] (-) TimerEvent: {}
+[3.408096] (-) TimerEvent: {}
+[3.508346] (-) TimerEvent: {}
+[3.608587] (-) TimerEvent: {}
+[3.708793] (-) TimerEvent: {}
+[3.809045] (-) TimerEvent: {}
+[3.909375] (-) TimerEvent: {}
+[4.009678] (-) TimerEvent: {}
+[4.109905] (-) TimerEvent: {}
+[4.210153] (-) TimerEvent: {}
+[4.310447] (-) TimerEvent: {}
+[4.410866] (-) TimerEvent: {}
+[4.511270] (-) TimerEvent: {}
+[4.611651] (-) TimerEvent: {}
+[4.711983] (-) TimerEvent: {}
+[4.812235] (-) TimerEvent: {}
+[4.912496] (-) TimerEvent: {}
+[5.012761] (-) TimerEvent: {}
+[5.112990] (-) TimerEvent: {}
+[5.213358] (-) TimerEvent: {}
+[5.313706] (-) TimerEvent: {}
+[5.414031] (-) TimerEvent: {}
+[5.514505] (-) TimerEvent: {}
+[5.614857] (-) TimerEvent: {}
+[5.715130] (-) TimerEvent: {}
+[5.815401] (-) TimerEvent: {}
+[5.915634] (-) TimerEvent: {}
+[6.015895] (-) TimerEvent: {}
+[6.116157] (-) TimerEvent: {}
+[6.216418] (-) TimerEvent: {}
+[6.316710] (-) TimerEvent: {}
+[6.416947] (-) TimerEvent: {}
+[6.517207] (-) TimerEvent: {}
+[6.617478] (-) TimerEvent: {}
+[6.717753] (-) TimerEvent: {}
+[6.818022] (-) TimerEvent: {}
+[6.918317] (-) TimerEvent: {}
+[7.018564] (-) TimerEvent: {}
+[7.118845] (-) TimerEvent: {}
+[7.219108] (-) TimerEvent: {}
+[7.319389] (-) TimerEvent: {}
+[7.419660] (-) TimerEvent: {}
+[7.519915] (-) TimerEvent: {}
+[7.620167] (-) TimerEvent: {}
+[7.720437] (-) TimerEvent: {}
+[7.820726] (-) TimerEvent: {}
+[7.920980] (-) TimerEvent: {}
+[8.021250] (-) TimerEvent: {}
+[8.121505] (-) TimerEvent: {}
+[8.221803] (-) TimerEvent: {}
+[8.322163] (-) TimerEvent: {}
+[8.422452] (-) TimerEvent: {}
+[8.522719] (-) TimerEvent: {}
+[8.622953] (-) TimerEvent: {}
+[8.723212] (-) TimerEvent: {}
+[8.823450] (-) TimerEvent: {}
+[8.923704] (-) TimerEvent: {}
+[9.023991] (-) TimerEvent: {}
+[9.124229] (-) TimerEvent: {}
+[9.224483] (-) TimerEvent: {}
+[9.324758] (-) TimerEvent: {}
+[9.425007] (-) TimerEvent: {}
+[9.525251] (-) TimerEvent: {}
+[9.625523] (-) TimerEvent: {}
+[9.725773] (-) TimerEvent: {}
+[9.826081] (-) TimerEvent: {}
+[9.926362] (-) TimerEvent: {}
+[10.026625] (-) TimerEvent: {}
+[10.126888] (-) TimerEvent: {}
+[10.227253] (-) TimerEvent: {}
+[10.327700] (-) TimerEvent: {}
+[10.427978] (-) TimerEvent: {}
+[10.528277] (-) TimerEvent: {}
+[10.628557] (-) TimerEvent: {}
+[10.728819] (-) TimerEvent: {}
+[10.829088] (-) TimerEvent: {}
+[10.929345] (-) TimerEvent: {}
+[11.029616] (-) TimerEvent: {}
+[11.129937] (-) TimerEvent: {}
+[11.230362] (-) TimerEvent: {}
+[11.330619] (-) TimerEvent: {}
+[11.430879] (-) TimerEvent: {}
+[11.531183] (-) TimerEvent: {}
+[11.631420] (-) TimerEvent: {}
+[11.703056] (rosbag2_to_pcd) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librosbag2_to_pcd_node_component.so\x1b[0m\n'}
+[11.731543] (-) TimerEvent: {}
+[11.831743] (-) TimerEvent: {}
+[11.931973] (-) TimerEvent: {}
+[12.032220] (-) TimerEvent: {}
+[12.132604] (-) TimerEvent: {}
+[12.232852] (-) TimerEvent: {}
+[12.333099] (-) TimerEvent: {}
+[12.433384] (-) TimerEvent: {}
+[12.533683] (-) TimerEvent: {}
+[12.633947] (-) TimerEvent: {}
+[12.734213] (-) TimerEvent: {}
+[12.834550] (-) TimerEvent: {}
+[12.934803] (-) TimerEvent: {}
+[13.035049] (-) TimerEvent: {}
+[13.135333] (-) TimerEvent: {}
+[13.235609] (-) TimerEvent: {}
+[13.335863] (-) TimerEvent: {}
+[13.436094] (-) TimerEvent: {}
+[13.536318] (-) TimerEvent: {}
+[13.636562] (-) TimerEvent: {}
+[13.736732] (-) TimerEvent: {}
+[13.836947] (-) TimerEvent: {}
+[13.937185] (-) TimerEvent: {}
+[14.033535] (rosbag2_to_pcd) StdoutLine: {'line': b'[100%] Built target rosbag2_to_pcd_node_component\n'}
+[14.037258] (-) TimerEvent: {}
+[14.040048] (rosbag2_to_pcd) CommandEnded: {'returncode': 0}
+[14.040463] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'install'}
+[14.046795] (rosbag2_to_pcd) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'], 'cwd': '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'liujie'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liujie'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/liujie/.cyclonedds/cyclonedds.xml'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2297'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2528'), ('BUNDLED_DEBUGPY_PATH', '/home/liujie/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b22c5d74afb0805e7672b7c6951d164'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6898'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujie'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/home/liujie/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liujie/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/liujie:@/tmp/.ICE-unix/2528,unix/liujie:/tmp/.ICE-unix/2528'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '6081a8d28f2b49e9bb600912a260bfca'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liujie/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cac67c9d452b4f3a.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/liujie/.config/Code/User/workspaceStorage/3bab27dac83f428b2e1eff173856604e/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/liujie/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-490141819f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/liujie'), ('AMENT_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujie/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujie/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3b22c5d74afb0805e7672b7c6951d164'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd:/opt/ros/humble')]), 'shell': False}
+[14.066670] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[14.073113] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.073734] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/rosbag2_to_pcd/rosbag2_to_pcd_node\n'}
+[14.073810] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.sh\n'}
+[14.073884] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.dsv\n'}
+[14.074236] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/librosbag2_to_pcd_node_component.so\n'}
+[14.074514] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param copy.yaml\n'}
+[14.074564] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param.yaml\n'}
+[14.074702] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/launch/rosbag2_to_pcd.launch.xml\n'}
+[14.074796] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/package_run_dependencies/rosbag2_to_pcd\n'}
+[14.074875] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/parent_prefix_path/rosbag2_to_pcd\n'}
+[14.074951] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.sh\n'}
+[14.075020] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.dsv\n'}
+[14.075089] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.sh\n'}
+[14.075154] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.dsv\n'}
+[14.075221] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.bash\n'}
+[14.075291] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.sh\n'}
+[14.075347] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.zsh\n'}
+[14.075409] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.dsv\n'}
+[14.075456] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.dsv\n'}
+[14.082064] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/packages/rosbag2_to_pcd\n'}
+[14.082195] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/rclcpp_components/rosbag2_to_pcd\n'}
+[14.082265] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.082336] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig.cmake\n'}
+[14.082391] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig-version.cmake\n'}
+[14.082447] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Up-to-date symlink: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.xml\n'}
+[14.083593] (rosbag2_to_pcd) CommandEnded: {'returncode': 0}
+[14.126644] (rosbag2_to_pcd) JobEnded: {'identifier': 'rosbag2_to_pcd', 'rc': 0}
+[14.127049] (-) EventReactorShutdown: {}

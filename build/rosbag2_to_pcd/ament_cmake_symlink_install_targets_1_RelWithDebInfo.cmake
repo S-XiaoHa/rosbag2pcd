@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd/librosbag2_to_pcd_node_component.so" "TARGETS" "rosbag2_to_pcd_node_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

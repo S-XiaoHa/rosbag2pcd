@@ -1,0 +1,1 @@
+/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd/ament_cmake_environment_hooks/local_setup.zsh

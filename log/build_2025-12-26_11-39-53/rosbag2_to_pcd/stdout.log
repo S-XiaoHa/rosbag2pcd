@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target rosbag2_to_pcd_node_component[0m
+[ 50%] Built target rosbag2_to_pcd_node
+[ 75%] [32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o[0m

@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000353] (rosbag2_to_pcd) JobQueued: {'identifier': 'rosbag2_to_pcd', 'dependencies': OrderedDict()}
+[0.000496] (rosbag2_to_pcd) JobStarted: {'identifier': 'rosbag2_to_pcd'}
+[0.005376] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'cmake'}
+[0.006091] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'build'}
+[0.006697] (rosbag2_to_pcd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', '--', '-j12', '-l12'], 'cwd': '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'en_US'), ('USER', 'liujie'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liujie'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/liujie/.cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/liujie/rosbag2pcd_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2520'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujie'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/home/liujie/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/liujie:@/tmp/.ICE-unix/2520,unix/liujie:/tmp/.ICE-unix/2520'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aeee06e5_af71_4298_9bba_c489c0a43e6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/liujie/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/liujie'), ('AMENT_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujie/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujie/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd:/opt/ros/humble')]), 'shell': False}
+[0.041985] (rosbag2_to_pcd) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rosbag2_to_pcd_node_component\x1b[0m\n'}
+[0.046971] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 50%] Built target rosbag2_to_pcd_node\n'}
+[0.062605] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o\x1b[0m\n'}
+[0.099904] (-) TimerEvent: {}
+[0.200152] (-) TimerEvent: {}
+[0.300426] (-) TimerEvent: {}
+[0.400677] (-) TimerEvent: {}
+[0.500916] (-) TimerEvent: {}
+[0.601164] (-) TimerEvent: {}
+[0.701393] (-) TimerEvent: {}
+[0.801620] (-) TimerEvent: {}
+[0.901868] (-) TimerEvent: {}
+[1.002118] (-) TimerEvent: {}
+[1.102378] (-) TimerEvent: {}
+[1.202620] (-) TimerEvent: {}
+[1.302858] (-) TimerEvent: {}
+[1.403116] (-) TimerEvent: {}
+[1.503417] (-) TimerEvent: {}
+[1.603643] (-) TimerEvent: {}
+[1.703889] (-) TimerEvent: {}
+[1.804143] (-) TimerEvent: {}
+[1.904421] (-) TimerEvent: {}
+[2.004648] (-) TimerEvent: {}
+[2.104896] (-) TimerEvent: {}
+[2.205176] (-) TimerEvent: {}
+[2.305434] (-) TimerEvent: {}
+[2.405698] (-) TimerEvent: {}
+[2.506015] (-) TimerEvent: {}
+[2.606283] (-) TimerEvent: {}
+[2.706585] (-) TimerEvent: {}
+[2.806839] (-) TimerEvent: {}
+[2.907103] (-) TimerEvent: {}
+[3.007369] (-) TimerEvent: {}
+[3.107593] (-) TimerEvent: {}
+[3.207860] (-) TimerEvent: {}
+[3.308104] (-) TimerEvent: {}
+[3.408368] (-) TimerEvent: {}
+[3.508600] (-) TimerEvent: {}
+[3.608829] (-) TimerEvent: {}
+[3.709061] (-) TimerEvent: {}
+[3.809316] (-) TimerEvent: {}
+[3.909562] (-) TimerEvent: {}
+[4.009811] (-) TimerEvent: {}
+[4.110058] (-) TimerEvent: {}
+[4.210322] (-) TimerEvent: {}
+[4.310555] (-) TimerEvent: {}
+[4.410810] (-) TimerEvent: {}
+[4.454742] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Krosbag2_to_pcd::Rosbag2ToPcdNode::Rosbag2ToPcdNode(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.454914] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.454970] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [\x1b[01;31m\x1b[KImage\x1b[m\x1b[K of Binary Data Structure]\n'}
+[4.455014] (rosbag2_to_pcd) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.455051] (rosbag2_to_pcd) StderrLine: {'line': b'      |  \x1b[32m\x1b[Ksensor_msgs::msg::Image\x1b[m\x1b[K\n'}
+[4.455090] (rosbag2_to_pcd) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[4.455128] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:53\x1b[m\x1b[K,\n'}
+[4.455165] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:7\x1b[m\x1b[K:\n'}
+[4.455201] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:208:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.455242] (rosbag2_to_pcd) StderrLine: {'line': b'  208 | using \x1b[01;36m\x1b[KImage\x1b[m\x1b[K =\n'}
+[4.455277] (rosbag2_to_pcd) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.455322] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kof\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.455366] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kof\x1b[m\x1b[K Binary Data Structure]\n'}
+[4.455403] (rosbag2_to_pcd) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~\x1b[m\x1b[K\n'}
+[4.455439] (rosbag2_to_pcd) StderrLine: {'line': b'      |       \x1b[32m\x1b[K,\x1b[m\x1b[K\n'}
+[4.459090] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kof\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfeof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.459195] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image \x1b[01;31m\x1b[Kof\x1b[m\x1b[K Binary Data Structure]\n'}
+[4.459239] (rosbag2_to_pcd) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.459276] (rosbag2_to_pcd) StderrLine: {'line': b'      |        \x1b[32m\x1b[Kfeof\x1b[m\x1b[K\n'}
+[4.459326] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KBinary\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.459371] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KBinary\x1b[m\x1b[K Data Structure]\n'}
+[4.459409] (rosbag2_to_pcd) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[4.459445] (rosbag2_to_pcd) StderrLine: {'line': b'      |          \x1b[32m\x1b[K,\x1b[m\x1b[K\n'}
+[4.460506] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBinary\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KYAML::Binary\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.460619] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of \x1b[01;31m\x1b[KBinary\x1b[m\x1b[K Data Structure]\n'}
+[4.460659] (rosbag2_to_pcd) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.460693] (rosbag2_to_pcd) StderrLine: {'line': b'      |           \x1b[32m\x1b[KYAML::Binary\x1b[m\x1b[K\n'}
+[4.460727] (rosbag2_to_pcd) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/yaml-cpp/emitter.h:18\x1b[m\x1b[K,\n'}
+[4.460759] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/yaml-cpp/yaml.h:11\x1b[m\x1b[K,\n'}
+[4.460790] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp:27\x1b[m\x1b[K,\n'}
+[4.460822] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp:22\x1b[m\x1b[K,\n'}
+[4.460855] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp:29\x1b[m\x1b[K,\n'}
+[4.460888] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp:25\x1b[m\x1b[K,\n'}
+[4.460920] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp:28\x1b[m\x1b[K,\n'}
+[4.460951] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:20\x1b[m\x1b[K:\n'}
+[4.460988] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/yaml-cpp/binary.h:20:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYAML::Binary\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.461022] (rosbag2_to_pcd) StderrLine: {'line': b'   20 | class YAML_CPP_API \x1b[01;36m\x1b[KBinary\x1b[m\x1b[K {\n'}
+[4.461055] (rosbag2_to_pcd) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.461087] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KData\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.461122] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of Binary\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KData\x1b[m\x1b[K Structure]\n'}
+[4.461154] (rosbag2_to_pcd) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[4.461190] (rosbag2_to_pcd) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K,\x1b[m\x1b[K\n'}
+[4.464511] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KData\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.464648] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of Binary \x1b[01;31m\x1b[KData\x1b[m\x1b[K Structure]\n'}
+[4.464702] (rosbag2_to_pcd) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.464739] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KStructure\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.464775] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of Binary Data\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KStructure\x1b[m\x1b[K]\n'}
+[4.464808] (rosbag2_to_pcd) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.464844] (rosbag2_to_pcd) StderrLine: {'line': b'      |                      \x1b[32m\x1b[K,\x1b[m\x1b[K\n'}
+[4.469935] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStructure\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.470148] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of Binary Data \x1b[01;31m\x1b[KStructure\x1b[m\x1b[K]\n'}
+[4.470194] (rosbag2_to_pcd) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.470230] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.470266] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:124:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.470301] (rosbag2_to_pcd) StderrLine: {'line': b'  124 |       \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (pcl::io::savePCDFileBinary(filename, *cloud) == 0) {\n'}
+[4.470347] (rosbag2_to_pcd) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.470381] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Krosbag2_to_pcd::Rosbag2ToPcdNode::Rosbag2ToPcdNode(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.470415] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:121:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.470448] (rosbag2_to_pcd) StderrLine: {'line': b'  121 | [Image of Binary Data Structure]\n'}
+[4.470481] (rosbag2_to_pcd) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.470514] (rosbag2_to_pcd) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.470546] (rosbag2_to_pcd) StderrLine: {'line': b'......\n'}
+[4.470578] (rosbag2_to_pcd) StderrLine: {'line': b'  124 |       \x1b[32m\x1b[Kif\x1b[m\x1b[K (pcl::io::savePCDFileBinary(filename, *cloud) == 0) {\n'}
+[4.470611] (rosbag2_to_pcd) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~\x1b[m\x1b[K                         \n'}
+[4.470642] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:126:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.470675] (rosbag2_to_pcd) StderrLine: {'line': b'  126 |       } \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K {\n'}
+[4.470708] (rosbag2_to_pcd) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.470740] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:94:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.470774] (rosbag2_to_pcd) StderrLine: {'line': b'   94 |     if (topic_to_folder_map.find(bag_message->topic_name) != topic_to_folder_map.end()) \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.470807] (rosbag2_to_pcd) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.475325] (rosbag2_to_pcd) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.475471] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.475547] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.475597] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.475652] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.475703] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.475748] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.475793] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.475840] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.475886] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.475932] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.475978] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/include/rosbag2_to_pcd.hpp:18\x1b[m\x1b[K,\n'}
+[4.476023] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:2\x1b[m\x1b[K:\n'}
+[4.476070] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:127:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfilename\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.476132] (rosbag2_to_pcd) StderrLine: {'line': b'  127 |           RCLCPP_ERROR(get_logger(), "Failed to save %s", \x1b[01;31m\x1b[Kfilename\x1b[m\x1b[K.c_str());\n'}
+[4.476165] (rosbag2_to_pcd) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.478901] (rosbag2_to_pcd) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.479000] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.479037] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.479069] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.479103] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.479135] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.479164] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.479196] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.479227] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.479257] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.479295] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/include/rosbag2_to_pcd.hpp:18\x1b[m\x1b[K,\n'}
+[4.479333] (rosbag2_to_pcd) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:2\x1b[m\x1b[K:\n'}
+[4.479365] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.479397] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:140:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.479428] (rosbag2_to_pcd) StderrLine: {'line': b'  140 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Finished converting bag file.");\n'}
+[4.479459] (rosbag2_to_pcd) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.479489] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:140:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.479519] (rosbag2_to_pcd) StderrLine: {'line': b'  140 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Finished converting bag file.");\n'}
+[4.479549] (rosbag2_to_pcd) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.479580] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:141:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.479613] (rosbag2_to_pcd) StderrLine: {'line': b'  141 |   \x1b[01;31m\x1b[Kfor\x1b[m\x1b[K (const auto& pair : topic_msg_counters) {\n'}
+[4.479643] (rosbag2_to_pcd) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.479673] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:145:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.479704] (rosbag2_to_pcd) StderrLine: {'line': b'  145 |   rclcpp::shutdown()\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[4.479735] (rosbag2_to_pcd) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.479764] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/src/rosbag2_to_pcd.cpp:148:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.479799] (rosbag2_to_pcd) StderrLine: {'line': b'  148 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace rosbag2_to_pcd\n'}
+[4.479830] (rosbag2_to_pcd) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.510917] (-) TimerEvent: {}
+[4.611182] (-) TimerEvent: {}
+[4.711430] (-) TimerEvent: {}
+[4.811699] (-) TimerEvent: {}
+[4.911948] (-) TimerEvent: {}
+[5.012223] (-) TimerEvent: {}
+[5.112532] (-) TimerEvent: {}
+[5.212765] (-) TimerEvent: {}
+[5.313078] (-) TimerEvent: {}
+[5.413317] (-) TimerEvent: {}
+[5.513576] (-) TimerEvent: {}
+[5.613834] (-) TimerEvent: {}
+[5.681645] (rosbag2_to_pcd) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rosbag2_to_pcd_node_component.dir/build.make:76: CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o] Error 1\n'}
+[5.681829] (rosbag2_to_pcd) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rosbag2_to_pcd_node_component.dir/all] Error 2\n'}
+[5.681991] (rosbag2_to_pcd) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.683703] (rosbag2_to_pcd) CommandEnded: {'returncode': 2}
+[5.691011] (rosbag2_to_pcd) JobEnded: {'identifier': 'rosbag2_to_pcd', 'rc': 2}
+[5.701392] (-) EventReactorShutdown: {}

@@ -1,0 +1,623 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (rosbag2_to_pcd) JobQueued: {'identifier': 'rosbag2_to_pcd', 'dependencies': OrderedDict()}
+[0.000426] (rosbag2_to_pcd) JobStarted: {'identifier': 'rosbag2_to_pcd'}
+[0.004338] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'cmake'}
+[0.004653] (rosbag2_to_pcd) Command: {'cmd': ['/usr/bin/cmake', '/home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_EXPORT_COMPILE_COMMANDS=1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd'], 'cwd': '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'en_US'), ('USER', 'liujie'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liujie'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/liujie/.cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/liujie/rosbag2pcd_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2520'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujie'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/home/liujie/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/liujie:@/tmp/.ICE-unix/2520,unix/liujie:/tmp/.ICE-unix/2520'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aeee06e5_af71_4298_9bba_c489c0a43e6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/liujie/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/liujie'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujie/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujie/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037870] (rosbag2_to_pcd) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.5.0\n'}
+[0.070780] (rosbag2_to_pcd) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.5.0\n'}
+[0.075105] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099928] (-) TimerEvent: {}
+[0.114346] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.118678] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.118820] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.119058] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.120824] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.167664] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.172081] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.172260] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.172528] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.173443] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.200001] (-) TimerEvent: {}
+[0.263924] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300120] (-) TimerEvent: {}
+[0.302372] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.315012] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.337514] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.339854] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.344202] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.350727] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.359590] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.382777] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.384040] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.395384] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.399577] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.400140] (-) TimerEvent: {}
+[0.443004] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.443222] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.485687] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.486341] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.500212] (-) TimerEvent: {}
+[0.515358] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.531103] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[0.546188] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.564058] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.586555] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.593351] (rosbag2_to_pcd) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.600314] (-) TimerEvent: {}
+[0.609147] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.609262] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.642926] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.649454] (rosbag2_to_pcd) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.668823] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.682219] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[0.689038] (rosbag2_to_pcd) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[0.700352] (-) TimerEvent: {}
+[0.706118] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.706264] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[0.706305] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI).  This can lead to\n'}
+[0.706349] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.706383] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.706415] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.706452] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)\n'}
+[0.706485] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:176 (find_package)\n'}
+[0.706515] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:319 (find_openni)\n'}
+[0.706545] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.706576] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.706616] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.706650] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.706682] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.706712] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.706742] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[0.728741] (rosbag2_to_pcd) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[0.732176] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.732247] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[0.732282] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI2).  This can lead to\n'}
+[0.732321] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.732358] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.732396] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.732428] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)\n'}
+[0.732460] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:190 (find_package)\n'}
+[0.732502] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:321 (find_openni2)\n'}
+[0.732534] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.732571] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.732606] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.732637] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.732669] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.732702] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.756442] (rosbag2_to_pcd) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)\n'}
+[0.761685] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.761780] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libusb-1.0)\n'}
+[0.761817] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.761852] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.761885] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.761919] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.761951] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:288 (find_package_handle_standard_args)\n'}
+[0.761983] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:335 (find_libusb)\n'}
+[0.762016] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.762053] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.762086] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.762127] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.762160] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.762193] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.762225] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[0.765167] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.765232] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[0.765262] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI).  This can lead to\n'}
+[0.765292] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.765355] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.765387] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.765417] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)\n'}
+[0.765447] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:176 (find_package)\n'}
+[0.765476] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:319 (find_openni)\n'}
+[0.765507] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.765536] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.765565] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.765593] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.765621] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.765650] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.765876] (rosbag2_to_pcd) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[0.769170] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.769230] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[0.769273] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI2).  This can lead to\n'}
+[0.769308] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.769349] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.769382] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.769414] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)\n'}
+[0.769446] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:190 (find_package)\n'}
+[0.769477] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:321 (find_openni2)\n'}
+[0.769508] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.769539] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.769570] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.769606] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.769637] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.769666] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.769781] (rosbag2_to_pcd) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)\n'}
+[0.781160] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[0.781229] (rosbag2_to_pcd) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[0.781450] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.781539] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)\n'}
+[0.781578] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.781611] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.781641] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.781669] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.781698] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.781726] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.781755] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.781786] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.781825] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.781857] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.781887] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  \n'}
+[0.781963] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.781994] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)\n'}
+[0.782023] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.782054] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.782085] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.782115] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.782145] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.782175] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.782204] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.782233] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.782263] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.782293] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.782330] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  \n'}
+[0.782382] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  \n'}
+[0.782418] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  \n'}
+[0.782490] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.782522] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)\n'}
+[0.782551] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.782579] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.782609] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.782639] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.782709] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.782739] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.782769] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.782798] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.782827] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.782855] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.782882] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.782913] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)\n'}
+[0.782943] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.782974] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.783003] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.783033] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.783063] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.783093] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.783123] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.783152] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.783182] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.783252] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.783284] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  \n'}
+[0.783319] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.783354] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.783387] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package\n'}
+[0.783417] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[0.783456] (rosbag2_to_pcd) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[0.783501] (rosbag2_to_pcd) StderrLine: {'line': b'  pattern.\n'}
+[0.783545] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.783581] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.783612] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.783721] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.783755] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.783786] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.783816] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.783846] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.783876] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.783906] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_FILTERS) does not match the name of the calling package (PCL).  This\n'}
+[0.783936] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.783966] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.783995] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.784025] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.784077] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.784108] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.784139] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.784173] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.784204] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.784234] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.784264] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_2D)\n'}
+[0.784294] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.784379] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.784412] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.784443] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.784473] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:614 (find_package_handle_standard_args)\n'}
+[0.784503] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.784533] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.784562] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.784591] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.784623] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.784665] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.784722] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.784754] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This\n'}
+[0.784785] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.784815] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.784869] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.784898] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:614 (find_package_handle_standard_args)\n'}
+[0.784926] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.784954] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.784982] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.785010] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.785041] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.785071] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.785112] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_IO)\n'}
+[0.785142] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.785172] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.785202] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.785232] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.785261] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.785291] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.785326] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.785358] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.785388] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.785417] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.785446] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  \n'}
+[0.785478] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_2D: /usr/local/include/pcl-1.10  \n'}
+[0.785509] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/local/include/pcl-1.10  \n'}
+[0.785540] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_IO: /usr/local/lib/libpcl_io.so  \n'}
+[0.785570] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  \n'}
+[0.785601] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.785673] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.785710] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_FEATURES) does not match the name of the calling package (PCL).  This\n'}
+[0.785742] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.785772] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.785802] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.785832] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.785878] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.785909] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.785939] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.785991] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.786020] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.786048] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.786077] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_ML)\n'}
+[0.786107] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.786137] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.786179] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.786210] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.786239] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.786269] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.786298] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.786360] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.786391] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.786421] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.786454] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_ML: /usr/local/lib/libpcl_ml.so  \n'}
+[0.786487] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  \n'}
+[0.786522] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.786569] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.786603] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).\n'}
+[0.786635] (rosbag2_to_pcd) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.786665] (rosbag2_to_pcd) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.786696] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.786726] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.786755] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.786786] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.786818] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.786848] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.786878] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.786907] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.786938] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.786968] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).\n'}
+[0.786999] (rosbag2_to_pcd) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.787030] (rosbag2_to_pcd) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.787060] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.787135] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.787166] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.787197] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.787226] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.787256] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.787285] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.787318] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.787351] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.787381] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_SURFACE) does not match the name of the calling package (PCL).  This\n'}
+[0.787411] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.787441] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.787470] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.787500] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.787529] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.787558] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.787588] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.787617] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.787646] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.787675] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  \n'}
+[0.787706] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  \n'}
+[0.787737] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  \n'}
+[0.787767] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.787838] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.787870] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_REGISTRATION) does not match the name of the calling package (PCL).\n'}
+[0.787928] (rosbag2_to_pcd) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.787959] (rosbag2_to_pcd) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.787989] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.788019] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.788049] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.788079] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.788108] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.788139] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.788168] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.788229] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.788258] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.788286] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This\n'}
+[0.788324] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.788357] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.788386] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.788414] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.788441] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.788469] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.788497] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.788524] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.788551] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.788578] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  \n'}
+[0.788612] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  \n'}
+[0.788647] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.788675] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.788704] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_TRACKING) does not match the name of the calling package (PCL).  This\n'}
+[0.788733] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.788761] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.788790] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.788818] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.788846] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.788874] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.788902] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.788929] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.788957] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.788983] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.789010] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.789037] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_RECOGNITION) does not match the name of the calling package (PCL).\n'}
+[0.789064] (rosbag2_to_pcd) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[0.789092] (rosbag2_to_pcd) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.789120] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.789146] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.789174] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.789207] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.789237] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.789265] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.789292] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.789331] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.789375] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)\n'}
+[0.789407] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.789435] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.789464] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.789492] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.789520] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.789548] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.789575] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.789602] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.789629] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.789656] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.789683] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.789715] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[0.789743] (rosbag2_to_pcd) StderrLine: {'line': b'  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This\n'}
+[0.789770] (rosbag2_to_pcd) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[0.789797] (rosbag2_to_pcd) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.789824] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.789851] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.789880] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.789907] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.789935] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.789961] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.789989] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.790015] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.790043] (rosbag2_to_pcd) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)\n'}
+[0.790070] (rosbag2_to_pcd) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[0.790096] (rosbag2_to_pcd) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.790123] (rosbag2_to_pcd) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.790153] (rosbag2_to_pcd) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.790179] (rosbag2_to_pcd) StderrLine: {'line': b'  /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)\n'}
+[0.790206] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.790233] (rosbag2_to_pcd) StderrLine: {'line': b'  /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[0.790259] (rosbag2_to_pcd) StderrLine: {'line': b'  CMakeLists.txt:14 (find_package)\n'}
+[0.790287] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.790318] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[0.790350] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  \n'}
+[0.790381] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  \n'}
+[0.790411] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  \n'}
+[0.790439] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  \n'}
+[0.800419] (-) TimerEvent: {}
+[0.806726] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.809824] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.892899] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.893071] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.898595] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.900483] (-) TimerEvent: {}
+[0.908487] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.914984] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[0.960890] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.961023] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.000569] (-) TimerEvent: {}
+[1.003839] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.004008] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.046167] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.046309] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.086308] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.086443] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.100676] (-) TimerEvent: {}
+[1.126175] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.126373] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.166819] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.166947] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.200773] (-) TimerEvent: {}
+[1.208103] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.254568] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.255576] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.256850] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.257763] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.264749] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.267851] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.270291] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.273383] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.288282] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.288853] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Checking for module 'qhull_r'\n"}
+[1.296223] (rosbag2_to_pcd) StdoutLine: {'line': b'--   Found qhull_r, version 8.0.2\n'}
+[1.300842] (-) TimerEvent: {}
+[1.313044] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:46 (find_package):\n'}
+[1.313151] (rosbag2_to_pcd) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[1.313188] (rosbag2_to_pcd) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[1.313220] (rosbag2_to_pcd) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.313251] (rosbag2_to_pcd) StderrLine: {'line': b'\n'}
+[1.313281] (rosbag2_to_pcd) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[1.313336] (rosbag2_to_pcd) StderrLine: {'line': b'\n'}
+[1.313380] (rosbag2_to_pcd) StderrLine: {'line': b'    /usr/local\n'}
+[1.313413] (rosbag2_to_pcd) StderrLine: {'line': b'\n'}
+[1.313444] (rosbag2_to_pcd) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[1.313481] (rosbag2_to_pcd) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.313513] (rosbag2_to_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[1.321796] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.380246] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.381712] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.382215] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/include\n'}
+[1.382254] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.383579] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.383622] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.384350] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.385947] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.386002] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.386302] (rosbag2_to_pcd) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.387388] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.400925] (-) TimerEvent: {}
+[1.414982] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Generating done\n'}
+[1.421778] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Build files have been written to: /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd\n'}
+[1.433942] (rosbag2_to_pcd) CommandEnded: {'returncode': 0}
+[1.434552] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'build'}
+[1.435178] (rosbag2_to_pcd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', '--', '-j12', '-l12'], 'cwd': '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'en_US'), ('USER', 'liujie'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liujie'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/liujie/.cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/liujie/rosbag2pcd_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2520'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujie'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/home/liujie/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/liujie:@/tmp/.ICE-unix/2520,unix/liujie:/tmp/.ICE-unix/2520'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aeee06e5_af71_4298_9bba_c489c0a43e6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/liujie/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/liujie'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujie/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujie/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.469022] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node.dir/rclcpp_components/node_main_rosbag2_to_pcd_node.cpp.o\x1b[0m\n'}
+[1.469253] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o\x1b[0m\n'}
+[1.501041] (-) TimerEvent: {}
+[1.601277] (-) TimerEvent: {}
+[1.701515] (-) TimerEvent: {}
+[1.801740] (-) TimerEvent: {}
+[1.901985] (-) TimerEvent: {}
+[2.002210] (-) TimerEvent: {}
+[2.102437] (-) TimerEvent: {}
+[2.202662] (-) TimerEvent: {}
+[2.302903] (-) TimerEvent: {}
+[2.403146] (-) TimerEvent: {}
+[2.503395] (-) TimerEvent: {}
+[2.603612] (-) TimerEvent: {}
+[2.703851] (-) TimerEvent: {}
+[2.804070] (-) TimerEvent: {}
+[2.904368] (-) TimerEvent: {}
+[3.004615] (-) TimerEvent: {}
+[3.104853] (-) TimerEvent: {}
+[3.205098] (-) TimerEvent: {}
+[3.305374] (-) TimerEvent: {}
+[3.405684] (-) TimerEvent: {}
+[3.505935] (-) TimerEvent: {}
+[3.606193] (-) TimerEvent: {}
+[3.706427] (-) TimerEvent: {}
+[3.806679] (-) TimerEvent: {}
+[3.906960] (-) TimerEvent: {}
+[4.007205] (-) TimerEvent: {}
+[4.107446] (-) TimerEvent: {}
+[4.207675] (-) TimerEvent: {}
+[4.307904] (-) TimerEvent: {}
+[4.408164] (-) TimerEvent: {}
+[4.437446] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable rosbag2_to_pcd_node\x1b[0m\n'}
+[4.508274] (-) TimerEvent: {}
+[4.524281] (rosbag2_to_pcd) StdoutLine: {'line': b'[ 75%] Built target rosbag2_to_pcd_node\n'}
+[4.608398] (-) TimerEvent: {}
+[4.708656] (-) TimerEvent: {}
+[4.808891] (-) TimerEvent: {}
+[4.909123] (-) TimerEvent: {}
+[5.009379] (-) TimerEvent: {}
+[5.109593] (-) TimerEvent: {}
+[5.209831] (-) TimerEvent: {}
+[5.310038] (-) TimerEvent: {}
+[5.410271] (-) TimerEvent: {}
+[5.510505] (-) TimerEvent: {}
+[5.610719] (-) TimerEvent: {}
+[5.710929] (-) TimerEvent: {}
+[5.811174] (-) TimerEvent: {}
+[5.911382] (-) TimerEvent: {}
+[6.011590] (-) TimerEvent: {}
+[6.111800] (-) TimerEvent: {}
+[6.212052] (-) TimerEvent: {}
+[6.312294] (-) TimerEvent: {}
+[6.412578] (-) TimerEvent: {}
+[6.512834] (-) TimerEvent: {}
+[6.613102] (-) TimerEvent: {}
+[6.713375] (-) TimerEvent: {}
+[6.813607] (-) TimerEvent: {}
+[6.913850] (-) TimerEvent: {}
+[7.014104] (-) TimerEvent: {}
+[7.114366] (-) TimerEvent: {}
+[7.214571] (-) TimerEvent: {}
+[7.314837] (-) TimerEvent: {}
+[7.415095] (-) TimerEvent: {}
+[7.515336] (-) TimerEvent: {}
+[7.615563] (-) TimerEvent: {}
+[7.715808] (-) TimerEvent: {}
+[7.816084] (-) TimerEvent: {}
+[7.916337] (-) TimerEvent: {}
+[8.016554] (-) TimerEvent: {}
+[8.116765] (-) TimerEvent: {}
+[8.216996] (-) TimerEvent: {}
+[8.317240] (-) TimerEvent: {}
+[8.417459] (-) TimerEvent: {}
+[8.517700] (-) TimerEvent: {}
+[8.617943] (-) TimerEvent: {}
+[8.718184] (-) TimerEvent: {}
+[8.818443] (-) TimerEvent: {}
+[8.918712] (-) TimerEvent: {}
+[9.018950] (-) TimerEvent: {}
+[9.119216] (-) TimerEvent: {}
+[9.219437] (-) TimerEvent: {}
+[9.319684] (-) TimerEvent: {}
+[9.419919] (-) TimerEvent: {}
+[9.520142] (-) TimerEvent: {}
+[9.540961] (rosbag2_to_pcd) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librosbag2_to_pcd_node_component.so\x1b[0m\n'}
+[9.620232] (-) TimerEvent: {}
+[9.720452] (-) TimerEvent: {}
+[9.820690] (-) TimerEvent: {}
+[9.920933] (-) TimerEvent: {}
+[10.021155] (-) TimerEvent: {}
+[10.121394] (-) TimerEvent: {}
+[10.221611] (-) TimerEvent: {}
+[10.321854] (-) TimerEvent: {}
+[10.422144] (-) TimerEvent: {}
+[10.522358] (-) TimerEvent: {}
+[10.622566] (-) TimerEvent: {}
+[10.722869] (-) TimerEvent: {}
+[10.823163] (-) TimerEvent: {}
+[10.923362] (-) TimerEvent: {}
+[11.023576] (-) TimerEvent: {}
+[11.123801] (-) TimerEvent: {}
+[11.224051] (-) TimerEvent: {}
+[11.324285] (-) TimerEvent: {}
+[11.424519] (-) TimerEvent: {}
+[11.524729] (-) TimerEvent: {}
+[11.624976] (-) TimerEvent: {}
+[11.725262] (-) TimerEvent: {}
+[11.825480] (-) TimerEvent: {}
+[11.925711] (-) TimerEvent: {}
+[12.025993] (-) TimerEvent: {}
+[12.126250] (-) TimerEvent: {}
+[12.165742] (rosbag2_to_pcd) StdoutLine: {'line': b'[100%] Built target rosbag2_to_pcd_node_component\n'}
+[12.173235] (rosbag2_to_pcd) CommandEnded: {'returncode': 0}
+[12.173937] (rosbag2_to_pcd) JobProgress: {'identifier': 'rosbag2_to_pcd', 'progress': 'install'}
+[12.179921] (rosbag2_to_pcd) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'], 'cwd': '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'en_US'), ('USER', 'liujie'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liujie'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file:///home/liujie/.cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/liujie/rosbag2pcd_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2520'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujie'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.8/bin:/home/liujie/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/liujie:@/tmp/.ICE-unix/2520,unix/liujie:/tmp/.ICE-unix/2520'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aeee06e5_af71_4298_9bba_c489c0a43e6a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/liujie/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/liujie'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujie/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujie/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=82ac6084c3e25635c4ac1f9b694bb298'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.184442] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[12.184790] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.185033] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/rosbag2_to_pcd/rosbag2_to_pcd_node\n'}
+[12.190128] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.sh\n'}
+[12.194847] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.dsv\n'}
+[12.199728] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/librosbag2_to_pcd_node_component.so\n'}
+[12.204902] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param.yaml\n'}
+[12.210463] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/launch/rosbag2_to_pcd.launch.xml\n'}
+[12.215518] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/package_run_dependencies/rosbag2_to_pcd\n'}
+[12.220472] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/parent_prefix_path/rosbag2_to_pcd\n'}
+[12.225453] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.sh\n'}
+[12.226309] (-) TimerEvent: {}
+[12.230235] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.dsv\n'}
+[12.234994] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.sh\n'}
+[12.239868] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.dsv\n'}
+[12.244644] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.bash\n'}
+[12.249254] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.sh\n'}
+[12.254865] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.zsh\n'}
+[12.260252] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.dsv\n'}
+[12.264922] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.dsv\n'}
+[12.269846] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/packages/rosbag2_to_pcd\n'}
+[12.274849] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/rclcpp_components/rosbag2_to_pcd\n'}
+[12.279803] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.284429] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig.cmake\n'}
+[12.289303] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig-version.cmake\n'}
+[12.294070] (rosbag2_to_pcd) StdoutLine: {'line': b'-- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.xml\n'}
+[12.299788] (rosbag2_to_pcd) CommandEnded: {'returncode': 0}
+[12.326381] (-) TimerEvent: {}
+[12.336662] (rosbag2_to_pcd) JobEnded: {'identifier': 'rosbag2_to_pcd', 'rc': 0}
+[12.337224] (-) EventReactorShutdown: {}

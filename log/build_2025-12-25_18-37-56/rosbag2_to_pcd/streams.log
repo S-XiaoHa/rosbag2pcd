@@ -1,0 +1,492 @@
+[0.005s] Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd
+[0.038s] -- The C compiler identification is GNU 9.5.0
+[0.070s] -- The CXX compiler identification is GNU 9.5.0
+[0.075s] -- Detecting C compiler ABI info
+[0.114s] -- Detecting C compiler ABI info - done
+[0.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.118s] -- Detecting C compile features
+[0.119s] -- Detecting C compile features - done
+[0.120s] -- Detecting CXX compiler ABI info
+[0.167s] -- Detecting CXX compiler ABI info - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.172s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.173s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.264s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.315s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.337s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.339s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.344s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.382s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.395s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.399s] -- Looking for pthread.h
+[0.443s] -- Looking for pthread.h - found
+[0.443s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.485s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.486s] -- Found Threads: TRUE  
+[0.515s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.531s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.546s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.564s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.586s] -- Checking for module 'eigen3'
+[0.593s] --   Found eigen3, version 3.4.0
+[0.609s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.609s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.643s] -- Checking for module 'flann'
+[0.649s] --   Found flann, version 1.9.1
+[0.668s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.682s] -- Checking for module 'libusb-1.0'
+[0.689s] --   Found libusb-1.0, version 1.0.25
+[0.706s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.706s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[0.706s]   does not match the name of the calling package (OpenNI).  This can lead to
+[0.706s]   problems in calling code that expects `find_package` result variables
+[0.706s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.706s] Call Stack (most recent call first):
+[0.706s]   /usr/local/share/pcl-1.10/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[0.706s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:176 (find_package)
+[0.706s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:319 (find_openni)
+[0.706s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+[0.706s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.706s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.706s]   CMakeLists.txt:14 (find_package)
+[0.706s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.706s] [0m
+[0.706s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.728s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.732s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.732s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[0.732s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[0.732s]   problems in calling code that expects `find_package` result variables
+[0.732s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.732s] Call Stack (most recent call first):
+[0.732s]   /usr/local/share/pcl-1.10/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[0.732s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:190 (find_package)
+[0.732s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:321 (find_openni2)
+[0.732s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+[0.732s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.732s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.732s]   CMakeLists.txt:14 (find_package)
+[0.732s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.732s] [0m
+[0.756s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)
+[0.761s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.761s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[0.761s]   does not match the name of the calling package (PCL).  This can lead to
+[0.761s]   problems in calling code that expects `find_package` result variables
+[0.761s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.762s] Call Stack (most recent call first):
+[0.762s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:288 (find_package_handle_standard_args)
+[0.762s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:335 (find_libusb)
+[0.762s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+[0.762s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.762s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.762s]   CMakeLists.txt:14 (find_package)
+[0.762s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.762s] [0m
+[0.762s] -- Found libusb-1.0: /usr/include  
+[0.765s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.765s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[0.765s]   does not match the name of the calling package (OpenNI).  This can lead to
+[0.765s]   problems in calling code that expects `find_package` result variables
+[0.765s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.765s] Call Stack (most recent call first):
+[0.765s]   /usr/local/share/pcl-1.10/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[0.765s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:176 (find_package)
+[0.765s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:319 (find_openni)
+[0.765s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+[0.765s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.765s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.765s]   CMakeLists.txt:14 (find_package)
+[0.765s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.765s] [0m
+[0.765s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.769s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.769s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[0.769s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[0.769s]   problems in calling code that expects `find_package` result variables
+[0.769s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.769s] Call Stack (most recent call first):
+[0.769s]   /usr/local/share/pcl-1.10/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[0.769s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:190 (find_package)
+[0.769s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:321 (find_openni2)
+[0.769s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:543 (find_external_library)
+[0.769s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.769s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.769s]   CMakeLists.txt:14 (find_package)
+[0.769s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.769s] [0m
+[0.769s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so)
+[0.781s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[0.781s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.781s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.781s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[0.781s]   does not match the name of the calling package (PCL).  This can lead to
+[0.781s]   problems in calling code that expects `find_package` result variables
+[0.781s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.781s] Call Stack (most recent call first):
+[0.781s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.781s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.781s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.781s]   CMakeLists.txt:14 (find_package)
+[0.781s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.781s] [0m
+[0.782s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[0.782s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.782s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[0.782s]   does not match the name of the calling package (PCL).  This can lead to
+[0.782s]   problems in calling code that expects `find_package` result variables
+[0.782s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.782s] Call Stack (most recent call first):
+[0.782s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.782s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.782s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.782s]   CMakeLists.txt:14 (find_package)
+[0.782s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.782s] [0m
+[0.782s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[0.782s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[0.782s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[0.782s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.782s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[0.782s]   does not match the name of the calling package (PCL).  This can lead to
+[0.782s]   problems in calling code that expects `find_package` result variables
+[0.782s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.782s] Call Stack (most recent call first):
+[0.782s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.782s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.782s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.782s]   CMakeLists.txt:14 (find_package)
+[0.782s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.782s] [0m
+[0.782s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.783s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[0.783s]   does not match the name of the calling package (PCL).  This can lead to
+[0.783s]   problems in calling code that expects `find_package` result variables
+[0.783s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.783s] Call Stack (most recent call first):
+[0.783s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.783s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.783s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.783s]   CMakeLists.txt:14 (find_package)
+[0.783s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.783s] [0m
+[0.783s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[0.783s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.783s]   The package name passed to `find_package_handle_standard_args`
+[0.783s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[0.783s]   (PCL).  This can lead to problems in calling code that expects
+[0.783s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[0.783s]   pattern.
+[0.783s] Call Stack (most recent call first):
+[0.783s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.783s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.783s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.783s]   CMakeLists.txt:14 (find_package)
+[0.783s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.783s] [0m
+[0.783s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.783s]   The package name passed to `find_package_handle_standard_args`
+[0.783s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[0.784s]   can lead to problems in calling code that expects `find_package` result
+[0.784s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.784s] Call Stack (most recent call first):
+[0.784s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.784s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.784s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.784s]   CMakeLists.txt:14 (find_package)
+[0.784s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.784s] [0m
+[0.784s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.784s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[0.784s]   does not match the name of the calling package (PCL).  This can lead to
+[0.784s]   problems in calling code that expects `find_package` result variables
+[0.784s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.784s] Call Stack (most recent call first):
+[0.784s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:614 (find_package_handle_standard_args)
+[0.784s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.784s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.784s]   CMakeLists.txt:14 (find_package)
+[0.784s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.784s] [0m
+[0.784s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.784s]   The package name passed to `find_package_handle_standard_args`
+[0.784s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[0.784s]   can lead to problems in calling code that expects `find_package` result
+[0.784s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.784s] Call Stack (most recent call first):
+[0.784s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:614 (find_package_handle_standard_args)
+[0.785s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.785s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.785s]   CMakeLists.txt:14 (find_package)
+[0.785s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.785s] [0m
+[0.785s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.785s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[0.785s]   does not match the name of the calling package (PCL).  This can lead to
+[0.785s]   problems in calling code that expects `find_package` result variables
+[0.785s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.785s] Call Stack (most recent call first):
+[0.785s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.785s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.785s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.785s]   CMakeLists.txt:14 (find_package)
+[0.785s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.785s] [0m
+[0.785s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[0.785s] -- Found PCL_2D: /usr/local/include/pcl-1.10  
+[0.785s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.10  
+[0.785s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[0.785s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[0.785s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.785s]   The package name passed to `find_package_handle_standard_args`
+[0.785s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[0.785s]   can lead to problems in calling code that expects `find_package` result
+[0.785s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.785s] Call Stack (most recent call first):
+[0.785s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.785s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.785s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.786s]   CMakeLists.txt:14 (find_package)
+[0.786s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.786s] [0m
+[0.786s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.786s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[0.786s]   does not match the name of the calling package (PCL).  This can lead to
+[0.786s]   problems in calling code that expects `find_package` result variables
+[0.786s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.786s] Call Stack (most recent call first):
+[0.786s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.786s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.786s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.786s]   CMakeLists.txt:14 (find_package)
+[0.786s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.786s] [0m
+[0.786s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[0.786s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[0.786s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.786s]   The package name passed to `find_package_handle_standard_args`
+[0.786s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[0.786s]   This can lead to problems in calling code that expects `find_package`
+[0.786s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.786s] Call Stack (most recent call first):
+[0.786s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.786s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.786s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.786s]   CMakeLists.txt:14 (find_package)
+[0.786s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.786s] [0m
+[0.786s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.787s]   The package name passed to `find_package_handle_standard_args`
+[0.787s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[0.787s]   This can lead to problems in calling code that expects `find_package`
+[0.787s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.787s] Call Stack (most recent call first):
+[0.787s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.787s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.787s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.787s]   CMakeLists.txt:14 (find_package)
+[0.787s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.787s] [0m
+[0.787s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.787s]   The package name passed to `find_package_handle_standard_args`
+[0.787s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[0.787s]   can lead to problems in calling code that expects `find_package` result
+[0.787s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.787s] Call Stack (most recent call first):
+[0.787s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.787s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.787s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.787s]   CMakeLists.txt:14 (find_package)
+[0.787s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.787s] [0m
+[0.787s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[0.787s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[0.787s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[0.787s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.787s]   The package name passed to `find_package_handle_standard_args`
+[0.787s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[0.788s]   This can lead to problems in calling code that expects `find_package`
+[0.788s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.788s] Call Stack (most recent call first):
+[0.788s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.788s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.788s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.788s]   CMakeLists.txt:14 (find_package)
+[0.788s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.788s] [0m
+[0.788s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.788s]   The package name passed to `find_package_handle_standard_args`
+[0.788s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[0.788s]   can lead to problems in calling code that expects `find_package` result
+[0.788s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.788s] Call Stack (most recent call first):
+[0.788s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.788s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.788s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.788s]   CMakeLists.txt:14 (find_package)
+[0.788s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.788s] [0m
+[0.788s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[0.788s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[0.788s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.788s]   The package name passed to `find_package_handle_standard_args`
+[0.788s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[0.788s]   can lead to problems in calling code that expects `find_package` result
+[0.788s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.788s] Call Stack (most recent call first):
+[0.788s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.788s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.788s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.788s]   CMakeLists.txt:14 (find_package)
+[0.789s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.789s] [0m
+[0.789s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.789s]   The package name passed to `find_package_handle_standard_args`
+[0.789s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[0.789s]   This can lead to problems in calling code that expects `find_package`
+[0.789s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.789s] Call Stack (most recent call first):
+[0.789s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.789s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.789s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.789s]   CMakeLists.txt:14 (find_package)
+[0.789s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.789s] [0m
+[0.789s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.789s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[0.789s]   does not match the name of the calling package (PCL).  This can lead to
+[0.789s]   problems in calling code that expects `find_package` result variables
+[0.789s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.789s] Call Stack (most recent call first):
+[0.789s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.789s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.789s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.789s]   CMakeLists.txt:14 (find_package)
+[0.789s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.789s] [0m
+[0.789s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.789s]   The package name passed to `find_package_handle_standard_args`
+[0.789s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[0.789s]   can lead to problems in calling code that expects `find_package` result
+[0.789s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.789s] Call Stack (most recent call first):
+[0.789s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.789s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.789s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.790s]   CMakeLists.txt:14 (find_package)
+[0.790s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.790s] [0m
+[0.790s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.790s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[0.790s]   does not match the name of the calling package (PCL).  This can lead to
+[0.790s]   problems in calling code that expects `find_package` result variables
+[0.790s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.790s] Call Stack (most recent call first):
+[0.790s]   /usr/local/share/pcl-1.10/PCLConfig.cmake:611 (find_package_handle_standard_args)
+[0.790s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.790s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.790s]   CMakeLists.txt:14 (find_package)
+[0.790s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.790s] [0m
+[0.790s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[0.790s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[0.790s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[0.790s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[0.806s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.809s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.893s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.893s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.898s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.908s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.915s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.961s] -- Found X11: /usr/include   
+[0.961s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.004s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.004s] -- Looking for gethostbyname
+[1.046s] -- Looking for gethostbyname - found
+[1.046s] -- Looking for connect
+[1.086s] -- Looking for connect - found
+[1.086s] -- Looking for remove
+[1.126s] -- Looking for remove - found
+[1.126s] -- Looking for shmat
+[1.166s] -- Looking for shmat - found
+[1.167s] -- Looking for IceConnectionNumber in ICE
+[1.208s] -- Looking for IceConnectionNumber in ICE - found
+[1.254s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.255s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.256s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.257s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.264s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.267s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.270s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.273s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.288s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.288s] -- Checking for module 'qhull_r'
+[1.296s] --   Found qhull_r, version 8.0.2
+[1.313s] [33mCMake Warning (dev) at CMakeLists.txt:46 (find_package):
+[1.313s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.313s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.313s]   command to set the policy and suppress this warning.
+[1.313s] 
+[1.313s]   CMake variable PCL_ROOT is set to:
+[1.313s] 
+[1.313s]     /usr/local
+[1.313s] 
+[1.313s]   For compatibility, CMake is ignoring the variable.
+[1.313s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.313s] [0m
+[1.321s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.380s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.381s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.382s] -- Configured cppcheck include dirs: /home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd/include
+[1.382s] -- Configured cppcheck exclude dirs and/or files: 
+[1.383s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.383s] -- Configured cpplint exclude dirs and/or files: 
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.386s] -- Added test 'uncrustify' to check C / C++ code style
+[1.386s] -- Configured uncrustify additional arguments: 
+[1.386s] -- Added test 'xmllint' to check XML markup files
+[1.387s] -- Configuring done
+[1.415s] -- Generating done
+[1.421s] -- Build files have been written to: /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd
+[1.434s] Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liujie/rosbag2pcd_ws/src/rosbag2_to_pcd -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd
+[1.435s] Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd -- -j12 -l12
+[1.469s] [ 25%] [32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node.dir/rclcpp_components/node_main_rosbag2_to_pcd_node.cpp.o[0m
+[1.469s] [ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_to_pcd_node_component.dir/src/rosbag2_to_pcd.cpp.o[0m
+[4.437s] [ 75%] [32m[1mLinking CXX executable rosbag2_to_pcd_node[0m
+[4.524s] [ 75%] Built target rosbag2_to_pcd_node
+[9.541s] [100%] [32m[1mLinking CXX shared library librosbag2_to_pcd_node_component.so[0m
+[12.165s] [100%] Built target rosbag2_to_pcd_node_component
+[12.173s] Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd -- -j12 -l12
+[12.180s] Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd
+[12.184s] -- Install configuration: "RelWithDebInfo"
+[12.184s] -- Execute custom install script
+[12.185s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/rosbag2_to_pcd/rosbag2_to_pcd_node
+[12.190s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.sh
+[12.195s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/library_path.dsv
+[12.199s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/lib/librosbag2_to_pcd_node_component.so
+[12.205s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/config/rosbag2_to_pcd.param.yaml
+[12.210s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/launch/rosbag2_to_pcd.launch.xml
+[12.215s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/package_run_dependencies/rosbag2_to_pcd
+[12.220s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/parent_prefix_path/rosbag2_to_pcd
+[12.225s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.sh
+[12.230s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/ament_prefix_path.dsv
+[12.235s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.sh
+[12.240s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/environment/path.dsv
+[12.244s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.bash
+[12.249s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.sh
+[12.255s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.zsh
+[12.260s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/local_setup.dsv
+[12.265s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.dsv
+[12.269s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/packages/rosbag2_to_pcd
+[12.274s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/ament_index/resource_index/rclcpp_components/rosbag2_to_pcd
+[12.279s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/ament_cmake_export_libraries-extras.cmake
+[12.284s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig.cmake
+[12.289s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/cmake/rosbag2_to_pcdConfig-version.cmake
+[12.294s] -- Symlinking: /home/liujie/rosbag2pcd_ws/install/rosbag2_to_pcd/share/rosbag2_to_pcd/package.xml
+[12.299s] Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd
