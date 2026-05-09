@@ -1,4 +1,0 @@
-Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd -- -j12 -l12
-Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd -- -j12 -l12
-Invoking command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd
-Invoked command in '/home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/liujie/rosbag2pcd_ws/build/rosbag2_to_pcd

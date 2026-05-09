@@ -1,3 +1,0 @@
-source;share/rosbag2_to_pcd/environment/ament_prefix_path.sh
-source;share/rosbag2_to_pcd/environment/library_path.sh
-source;share/rosbag2_to_pcd/environment/path.sh
